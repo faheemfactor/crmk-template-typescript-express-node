@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressValidator());
 // app.use(session({
-//   resave: true,
+//   re save: true,
 //   saveUninitialized: true,
 //   secret: SESSION_SECRET,
 //   store: new MongoStore({
